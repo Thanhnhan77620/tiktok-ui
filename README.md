@@ -1,6 +1,8 @@
 # Sumary library
+
 ## npm i babel-plugin-module-resolver
-This plugin can simplify the require/import paths in your project. For example, instead of using complex relative paths like ../../../../utils/my-utils, 
+
+This plugin can simplify the require/import paths in your project. For example, instead of using complex relative paths like ../../../../utils/my-utils,
 you can write utils/my-utils. It will allow you to work faster since you won't need to calculate how many levels of directory you have to go up before accessing the file.
 
 // Use this:
@@ -17,6 +19,14 @@ const MyUtilFn = require('../../../../utils/MyUtilFn');
 ## npm i customize-cra react-app-rewired -D
 
 Override webpack configurations for create-react-app 2.0
+
+## npm i @tippyjs/react
+
+Tippy.js is the complete tooltip, popover, dropdown, and menu solution for the web, powered by Popper.
+
+## npm i react-debounce-input
+
+React component that renders an Input, Textarea or other element with debounced onChange. Can be used as drop-in replacement for <input type="text" /> or <textarea />
 
 # Getting Started with Create React App
 
